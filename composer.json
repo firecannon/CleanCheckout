@@ -9,6 +9,12 @@
         "rubic/magento2-module-clean-checkout-geo": "^2.0",
         "rubic/magento2-module-clean-checkout-newsletter": "^2.0",
         "rubic/magento2-module-clean-checkout-social": "^2.0",
-        "rubic/magento2-module-clean-checkout-theme": "^2.0"
-    }
+        "rubic/magento2-module-clean-checkout-theme": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:firecannon/CleanCheckoutTheme.git"
+        }
+    ]
 }
